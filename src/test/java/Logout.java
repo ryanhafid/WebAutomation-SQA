@@ -40,7 +40,7 @@ public class Logout {
 
         String logoName = driver.findElement(By.className("login_logo")).getText();
         Assert.assertEquals("Swag Labs", logoName);
-//        driver.close();
+        driver.close();
     }
 
 }
